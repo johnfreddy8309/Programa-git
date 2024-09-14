@@ -1,0 +1,114 @@
+
+
+
+#mensajeEmergente.visible {
+    display: block;
+}
+
+.navbar {
+    border-bottom: 3px solid #E5A8A8;
+    background-color: #F3ECE6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F3ECE6;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.nav-menu  {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid #E5A8A8;
+    outline: none;
+    font-size: 50px;
+}
+
+.search-btn {
+    background-color: #E5A8A8;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+header {
+    text-align: center;
+    margin-top: 90px;
+}
+
+header h1 {
+    color: #d6b319;
+    font-size: 60px;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.category img {
+    width: 400px;
+    height: 580px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mi-imagen {
+    max-width: none; 
+    max-height: none;
+
+    
+}
+
+
+
